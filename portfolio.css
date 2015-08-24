@@ -48,7 +48,7 @@ height: 10vw;
 
 z-index: 2;
 /*margin-top: -30%;
-*/margin-top: -36%;
+*/margin-top: -35%;
 margin-left: 64%;
 width: 20vw;
 height: 10vw;
@@ -166,9 +166,40 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	height: 74vw;
 }
 
+#section2{
+
+	height: 74vw;
+}
+
 .frame{
 
-	width: 80vw;
+	width: 73vw;
 	height: 50vw;
+}
+
+.no-bullets{
+	list-style-type: none;
+
+}
+
+.ability-score{
+
+	text-align: right;
+	font-size:2em;
+}
+
+.ability-title{
+
+	font-size: 2em; 
+}
+
+.filled{
+
+	color: yellow;
+}
+
+.notFilled{
+
+	color: white;
 }
 
