@@ -6,6 +6,7 @@
  	background-size: 101% auto;
     background-repeat: no-repeat;
     font-family: Avenir;
+
  }
 
 
@@ -171,6 +172,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	height: 74vw;
 }
 
+
+#section3{
+
+	min-height: 74vw;
+	height: auto;
+	background-color: black;
+}
+
 .frame{
 
 	width: 73vw;
@@ -185,12 +194,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .ability-score{
 
 	text-align: right;
-	font-size:2em;
+	font-size:1.4em;
 }
 
 .ability-title{
 
-	font-size: 2em; 
+	font-size: 1.4em; 
 }
 
 .filled{
@@ -201,5 +210,19 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .notFilled{
 
 	color: white;
+}
+
+.backGradient{
+/*	background-color: RGBA(255, 255, 255, .2);
+*/	padding: 25px;
+	border-radius: 5px;
+	background-image: url("frostedGlass.png");
+	background-size: 100% 100%;
+	opacity: ;
+}
+
+.headingArea{
+
+	text-align: center;
 }
 
